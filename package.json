@@ -1,0 +1,42 @@
+{
+  "name": "retweeters",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint \"*/**/*.{ts,tsx}\"",
+    "format": "yarn lint --fix",
+    "export": "cross-env NEXT_EXPORT=true next build && cross-env NEXT_EXPORT=true next export"
+  },
+  "dependencies": {
+    "next": "canary",
+    "next-offline": "4.0.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "ress": "^3.0.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.3",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/twit": "^2.2.28",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "cross-env": "6.0.3",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "4.1.0",
+    "eslint-plugin-sort-imports-es6-autofix": "0.5.0",
+    "prettier": "^2.1.1",
+    "sass": "^1.26.11",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  },
+  "license": "MIT"
+}
